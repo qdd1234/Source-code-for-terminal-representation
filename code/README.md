@@ -5,10 +5,6 @@
 ## 代码位置
 模型的源代码在 model/yolov4内
 
-## 推荐
-本项目已经开源到AIStudio中，可直接跑：
-https://aistudio.baidu.com/aistudio/projectdetail/570310
-
 ## 训练
 开始训练前安装pycocotools依赖、解压COCO2017数据集,文件夹的路径需要修改成自己的：
 ```
