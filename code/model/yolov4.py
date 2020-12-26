@@ -72,7 +72,6 @@ def conv2d_unit(x, filters, kernels, stride=1, padding=0, bn=1, act='mish',dilat
 def stack_residual_block(inputs,conv_start_idx, is_test, trainable):
     x =  conv2d_unit(inputs, inputs.shape[1], 3, stride=1, padding=1, name='conv%.3d' % (conv_start_idx), is_test=is_test, trainable=trainable)
     x1,x2 = fluid.layers.split(x, num_or_sections = 2, dim=1)
-    x2 = _spp(x2)
     _,c,h,w = x2.shape
     x3 = conv2d_unit(x2, c, 3, stride=1, padding=1, name='conv%.3d' % (conv_start_idx + 1), is_test=is_test, trainable=trainable)
     x4 = conv2d_unit(x3, c, 3, stride=1, padding=1, name='conv%.3d' % (conv_start_idx + 2), is_test=is_test, trainable=trainable)
