@@ -3,7 +3,7 @@
 # YOLOv4-Tiny PLUS源码
 
 ## 代码位置
-模型的源代码在work/model/yolov4内
+模型的源代码在 model/yolov4内
 
 ## 推荐
 本项目已经开源到AIStudio中，可直接跑：
