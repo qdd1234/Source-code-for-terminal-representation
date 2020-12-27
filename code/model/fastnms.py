@@ -2,9 +2,9 @@
 # coding=utf-8
 # ================================================================
 #
-#   Author      : miemie2013
-#   Created date: 2020-06-03 15:35:27
-#   Description : keras_yolov4
+#   Author      : zhoukunyang
+#   Created date: 2020-12-08
+#  
 #
 # ================================================================
 import paddle.fluid.layers as P
