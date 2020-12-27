@@ -1,4 +1,8 @@
 # coding=utf-8
+
+# Author: zhoukunyang
+
+
 import paddle
 from paddle import fluid
 from paddle.fluid.param_attr import ParamAttr
