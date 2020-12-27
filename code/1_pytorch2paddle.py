@@ -2,9 +2,9 @@
 # coding=utf-8
 # ================================================================
 #
-#   Author      : miemie2013
-#   Created date: 2020-06-10 10:20:27
-#   Description : paddlepaddle_yolov4，复制权重
+#   Author      : zhoukunyang
+#   Created date: 2020-12-08
+#   Description : 复制权重
 #
 # ================================================================
 import os
