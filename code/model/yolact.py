@@ -1,12 +1,7 @@
 #! /usr/bin/env python
 # coding=utf-8
 # ================================================================
-#
-#   Author      : miemie2013
-#   Created date: 2020-06-10 10:20:27
-#   Description : paddlepaddle_yolov4
-#
-# ================================================================
+
 import paddle.fluid as fluid
 
 from model.yolov4 import yolo_decode
