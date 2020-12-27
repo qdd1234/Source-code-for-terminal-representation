@@ -2,8 +2,8 @@
 # coding=utf-8
 # ================================================================
 #
-#   Author      : miemie2013
-#   Created date: 2020-05-20 15:35:27
+#   Author      : zhoukunyang
+#   Created date: 2020-12-08
 #   Description : Convert annotation files (txt format) into coco json format.
 #                 自定义数据集的注解转换成coco的注解格式。生成的json注解文件在annotation_json目录下。
 #
