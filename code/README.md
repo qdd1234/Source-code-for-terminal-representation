@@ -3,7 +3,7 @@
 # YOLOv4-Tiny PLUS源码
 
 ## 代码位置
-模型的源代码在 model/yolov4内
+模型的源代码在 model/yolov4.py内
 
 ## 训练
 开始训练前安装pycocotools依赖、解压COCO2017数据集,文件夹的路径需要修改成自己的：
