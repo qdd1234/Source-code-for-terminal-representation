@@ -3,3 +3,6 @@ YOLOv4-Tiny PLUS 源码、MobileNetV2-DeepLabV3源码、MobilNetV3-DBNet源码 �
 
 #
 YOLOv4-Tiny-PLUS源码在code文件夹内
+
+#
+车牌识别的代码在word文件夹内
