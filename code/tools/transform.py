@@ -2,10 +2,9 @@
 # coding=utf-8
 # ================================================================
 #
-#   Author      : miemie2013
-#   Created date: 2020-06-05 15:35:27
-#   Description : 数据增强。凑不要脸地搬运了百度PaddleDetection的部分代码（我的另一个仓库https://github.com/miemie2013/yolact）。
-#                 gt_mask相关操作被注释掉了。其实稍微改造一下YOLOv4即可支持实例分割。
+#   Author      : zhoukunyang
+#   Created date: 2020-12-08
+#   Description : 数据增强。
 #
 # ================================================================
 import cv2
