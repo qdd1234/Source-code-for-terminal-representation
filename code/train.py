@@ -351,8 +351,10 @@ if __name__ == '__main__':
             args = [output_l, output_m, output_s, label_sbbox, label_mbbox, label_lbbox, true_bboxes]
             ciou_loss, conf_loss, prob_loss = yolo_loss(args, num_classes, cfg.iou_loss_thresh, _anchors)
             loss = ciou_loss + conf_loss + prob_loss
-
-            optimizer = fluid.optimizer.Adam(learning_rate=cfg.lr)
+            
+            base_lr = cfg.lr
+            lr = fluid.layers.cosine_decay( learning_rate = base_lr, step_each_epoch=10000, epochs=650000)
+            optimizer = fluid.optimizer.Adam(learning_rate=lr)
             optimizer.minimize(loss)
 
 
