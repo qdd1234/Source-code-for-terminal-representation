@@ -49,7 +49,7 @@ class YOLOv4_Config_1(object):
         # 每隔几步计算一次eval集的mAP
         self.eval_iter = 5000
         # 训练多少步
-        self.max_iters = 70000
+        self.max_iters = 650000
 
 
         # 验证
